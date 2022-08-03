@@ -2,6 +2,8 @@
 :root {
     --primary-color: rgb(13, 106, 134);
     --primary-darker: rgb(9, 48, 56);
+    --awser-valid-color: rgb(109, 255, 182);
+    --awser-invalid-color: rgb(255, 150, 150);
     --secondary-color: #fff;
 }
 
@@ -58,4 +60,14 @@ form button {
 
 form button:hover {
     background-color: var(--primary-darker);
+}
+
+.paragrafo-resultado-true {
+    background-color: var(--awser-valid-color);
+    padding: 10px 20px;
+}
+
+.paragrafo-resultado-false {
+    background-color: var(--awser-invalid-color);
+    padding: 10px 20px;
 }
